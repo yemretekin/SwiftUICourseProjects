@@ -11,3 +11,8 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/77a22cd0-b52
 ## 3. Project - Pinch
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/5602c799-d529-4e85-a3a1-2d219daed236
 
+## 4. Project - Fructus
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/0b7c5dee-0167-42f8-abb4-fc904a791820
+
+
+
