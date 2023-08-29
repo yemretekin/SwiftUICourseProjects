@@ -14,5 +14,11 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/5602c799-d52
 ## 4. Project - Fructus
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/0b7c5dee-0167-42f8-abb4-fc904a791820
 
+## 5. Project - Africa
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/2795cc7b-dc32-487d-9a75-4c51d99abd34
+
+
+
+
 
 
