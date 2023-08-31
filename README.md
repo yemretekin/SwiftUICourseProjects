@@ -23,3 +23,8 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/2795cc7b-dc3
 ## 6. Project - Touchdown
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/1f6cda6d-d348-44e9-a42f-a62262123318
 
+
+## 7. Project - Devote
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/3ee9f7ff-688e-4344-8a22-33a914ecfd6f
+
+
