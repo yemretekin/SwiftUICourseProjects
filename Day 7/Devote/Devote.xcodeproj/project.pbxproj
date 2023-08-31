@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A88C3D22AA0B08700A048CD /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3D12AA0B08700A048CD /* BackgroundImageView.swift */; };
+		9A88C3D42AA0B15000A048CD /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3D32AA0B15000A048CD /* NewTaskItemView.swift */; };
+		9A88C3D62AA0BB7000A048CD /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3D52AA0BB7000A048CD /* BlankView.swift */; };
+		9A88C3D82AA0C52500A048CD /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3D72AA0C52500A048CD /* ListRowItemView.swift */; };
+		9A88C3DA2AA0C62C00A048CD /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3D92AA0C62C00A048CD /* CheckboxStyle.swift */; };
+		9A88C3DC2AA0CDBA00A048CD /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3DB2AA0CDBA00A048CD /* SoundPlayer.swift */; };
+		9A88C3E42AA0D1D900A048CD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88C3E32AA0D1D800A048CD /* WidgetKit.framework */; };
+		9A88C3E62AA0D1D900A048CD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88C3E52AA0D1D900A048CD /* SwiftUI.framework */; };
+		9A88C3E92AA0D1D900A048CD /* DevoteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3E82AA0D1D900A048CD /* DevoteWidgetBundle.swift */; };
+		9A88C3EB2AA0D1D900A048CD /* DevoteWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3EA2AA0D1D900A048CD /* DevoteWidgetLiveActivity.swift */; };
+		9A88C3ED2AA0D1D900A048CD /* DevoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3EC2AA0D1D900A048CD /* DevoteWidget.swift */; };
+		9A88C3F02AA0D1DB00A048CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A88C3EF2AA0D1DB00A048CD /* Assets.xcassets */; };
+		9A88C3F22AA0D1DB00A048CD /* DevoteWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3EE2AA0D1D900A048CD /* DevoteWidget.intentdefinition */; };
+		9A88C3F32AA0D1DB00A048CD /* DevoteWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A88C3EE2AA0D1D900A048CD /* DevoteWidget.intentdefinition */; };
+		9A88C3F62AA0D1DB00A048CD /* DevoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9A88C3E12AA0D1D800A048CD /* DevoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A88C3FB2AA0D32500A048CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF101C2AA08B170051D6C4 /* Assets.xcassets */; };
+		9A88C3FC2AA0D62100A048CD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF103E2AA0A35C0051D6C4 /* Constant.swift */; };
+		9ACF10192AA08B150051D6C4 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF10182AA08B150051D6C4 /* DevoteApp.swift */; };
+		9ACF101B2AA08B150051D6C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF101A2AA08B150051D6C4 /* ContentView.swift */; };
+		9ACF101D2AA08B170051D6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF101C2AA08B170051D6C4 /* Assets.xcassets */; };
+		9ACF10202AA08B170051D6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF101F2AA08B170051D6C4 /* Preview Assets.xcassets */; };
+		9ACF10222AA08B170051D6C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF10212AA08B170051D6C4 /* Persistence.swift */; };
+		9ACF10252AA08B170051D6C4 /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF10232AA08B170051D6C4 /* Devote.xcdatamodeld */; };
+		9ACF102E2AA08BCD0051D6C4 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF102B2AA08BCC0051D6C4 /* sound-ding.mp3 */; };
+		9ACF102F2AA08BCD0051D6C4 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF102C2AA08BCD0051D6C4 /* sound-rise.mp3 */; };
+		9ACF10302AA08BCD0051D6C4 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF102D2AA08BCD0051D6C4 /* sound-tap.mp3 */; };
+		9ACF103F2AA0A35C0051D6C4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF103E2AA0A35C0051D6C4 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A88C3F42AA0D1DB00A048CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACF100D2AA08B150051D6C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A88C3E02AA0D1D800A048CD;
+			remoteInfo = DevoteWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A88C3FA2AA0D1DB00A048CD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9A88C3F62AA0D1DB00A048CD /* DevoteWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A88C3D12AA0B08700A048CD /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		9A88C3D32AA0B15000A048CD /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		9A88C3D52AA0BB7000A048CD /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		9A88C3D72AA0C52500A048CD /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		9A88C3D92AA0C62C00A048CD /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		9A88C3DB2AA0CDBA00A048CD /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		9A88C3E12AA0D1D800A048CD /* DevoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A88C3E32AA0D1D800A048CD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9A88C3E52AA0D1D900A048CD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9A88C3E82AA0D1D900A048CD /* DevoteWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteWidgetBundle.swift; sourceTree = "<group>"; };
+		9A88C3EA2AA0D1D900A048CD /* DevoteWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		9A88C3EC2AA0D1D900A048CD /* DevoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteWidget.swift; sourceTree = "<group>"; };
+		9A88C3EE2AA0D1D900A048CD /* DevoteWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DevoteWidget.intentdefinition; sourceTree = "<group>"; };
+		9A88C3EF2AA0D1DB00A048CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A88C3F12AA0D1DB00A048CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACF10152AA08B150051D6C4 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACF10182AA08B150051D6C4 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
+		9ACF101A2AA08B150051D6C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ACF101C2AA08B170051D6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ACF101F2AA08B170051D6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ACF10212AA08B170051D6C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9ACF10242AA08B170051D6C4 /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		9ACF102B2AA08BCC0051D6C4 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		9ACF102C2AA08BCD0051D6C4 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		9ACF102D2AA08BCD0051D6C4 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		9ACF10372AA08EB50051D6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9ACF103E2AA0A35C0051D6C4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A88C3DE2AA0D1D800A048CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88C3E62AA0D1D900A048CD /* SwiftUI.framework in Frameworks */,
+				9A88C3E42AA0D1D900A048CD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACF10122AA08B150051D6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A88C3E22AA0D1D800A048CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88C3E32AA0D1D800A048CD /* WidgetKit.framework */,
+				9A88C3E52AA0D1D900A048CD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A88C3E72AA0D1D900A048CD /* DevoteWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9A88C3E82AA0D1D900A048CD /* DevoteWidgetBundle.swift */,
+				9A88C3EA2AA0D1D900A048CD /* DevoteWidgetLiveActivity.swift */,
+				9A88C3EC2AA0D1D900A048CD /* DevoteWidget.swift */,
+				9A88C3EE2AA0D1D900A048CD /* DevoteWidget.intentdefinition */,
+				9A88C3EF2AA0D1DB00A048CD /* Assets.xcassets */,
+				9A88C3F12AA0D1DB00A048CD /* Info.plist */,
+			);
+			path = DevoteWidget;
+			sourceTree = "<group>";
+		};
+		9ACF100C2AA08B150051D6C4 = {
+			isa = PBXGroup;
+			children = (
+				9ACF10172AA08B150051D6C4 /* Devote */,
+				9A88C3E72AA0D1D900A048CD /* DevoteWidget */,
+				9A88C3E22AA0D1D800A048CD /* Frameworks */,
+				9ACF10162AA08B150051D6C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ACF10162AA08B150051D6C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF10152AA08B150051D6C4 /* Devote.app */,
+				9A88C3E12AA0D1D800A048CD /* DevoteWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACF10172AA08B150051D6C4 /* Devote */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF10372AA08EB50051D6C4 /* Info.plist */,
+				9ACF10182AA08B150051D6C4 /* DevoteApp.swift */,
+				9ACF10352AA08CCF0051D6C4 /* View */,
+				9ACF10362AA08CE70051D6C4 /* Model */,
+				9ACF10312AA08CB40051D6C4 /* Style */,
+				9ACF10322AA08CBB0051D6C4 /* Utility */,
+				9ACF10332AA08CC20051D6C4 /* Extension */,
+				9ACF10342AA08CCA0051D6C4 /* Sound */,
+				9ACF101C2AA08B170051D6C4 /* Assets.xcassets */,
+				9ACF101E2AA08B170051D6C4 /* Preview Content */,
+			);
+			path = Devote;
+			sourceTree = "<group>";
+		};
+		9ACF101E2AA08B170051D6C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF101F2AA08B170051D6C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ACF10312AA08CB40051D6C4 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				9A88C3D92AA0C62C00A048CD /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		9ACF10322AA08CBB0051D6C4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF103E2AA0A35C0051D6C4 /* Constant.swift */,
+				9A88C3DB2AA0CDBA00A048CD /* SoundPlayer.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9ACF10332AA08CC20051D6C4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9ACF10342AA08CCA0051D6C4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF102B2AA08BCC0051D6C4 /* sound-ding.mp3 */,
+				9ACF102C2AA08BCD0051D6C4 /* sound-rise.mp3 */,
+				9ACF102D2AA08BCD0051D6C4 /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9ACF10352AA08CCF0051D6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF101A2AA08B150051D6C4 /* ContentView.swift */,
+				9A88C3D12AA0B08700A048CD /* BackgroundImageView.swift */,
+				9A88C3D32AA0B15000A048CD /* NewTaskItemView.swift */,
+				9A88C3D52AA0BB7000A048CD /* BlankView.swift */,
+				9A88C3D72AA0C52500A048CD /* ListRowItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ACF10362AA08CE70051D6C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF10212AA08B170051D6C4 /* Persistence.swift */,
+				9ACF10232AA08B170051D6C4 /* Devote.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A88C3E02AA0D1D800A048CD /* DevoteWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A88C3F72AA0D1DB00A048CD /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */;
+			buildPhases = (
+				9A88C3DD2AA0D1D800A048CD /* Sources */,
+				9A88C3DE2AA0D1D800A048CD /* Frameworks */,
+				9A88C3DF2AA0D1D800A048CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevoteWidgetExtension;
+			productName = DevoteWidgetExtension;
+			productReference = 9A88C3E12AA0D1D800A048CD /* DevoteWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9ACF10142AA08B150051D6C4 /* Devote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACF10282AA08B170051D6C4 /* Build configuration list for PBXNativeTarget "Devote" */;
+			buildPhases = (
+				9ACF10112AA08B150051D6C4 /* Sources */,
+				9ACF10122AA08B150051D6C4 /* Frameworks */,
+				9ACF10132AA08B150051D6C4 /* Resources */,
+				9A88C3FA2AA0D1DB00A048CD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A88C3F52AA0D1DB00A048CD /* PBXTargetDependency */,
+			);
+			name = Devote;
+			productName = Devote;
+			productReference = 9ACF10152AA08B150051D6C4 /* Devote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ACF100D2AA08B150051D6C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9A88C3E02AA0D1D800A048CD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9ACF10142AA08B150051D6C4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9ACF10102AA08B150051D6C4 /* Build configuration list for PBXProject "Devote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ACF100C2AA08B150051D6C4;
+			productRefGroup = 9ACF10162AA08B150051D6C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACF10142AA08B150051D6C4 /* Devote */,
+				9A88C3E02AA0D1D800A048CD /* DevoteWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A88C3DF2AA0D1D800A048CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88C3FB2AA0D32500A048CD /* Assets.xcassets in Resources */,
+				9A88C3F02AA0D1DB00A048CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACF10132AA08B150051D6C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACF10202AA08B170051D6C4 /* Preview Assets.xcassets in Resources */,
+				9ACF102F2AA08BCD0051D6C4 /* sound-rise.mp3 in Resources */,
+				9ACF101D2AA08B170051D6C4 /* Assets.xcassets in Resources */,
+				9ACF10302AA08BCD0051D6C4 /* sound-tap.mp3 in Resources */,
+				9ACF102E2AA08BCD0051D6C4 /* sound-ding.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A88C3DD2AA0D1D800A048CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88C3ED2AA0D1D900A048CD /* DevoteWidget.swift in Sources */,
+				9A88C3F22AA0D1DB00A048CD /* DevoteWidget.intentdefinition in Sources */,
+				9A88C3FC2AA0D62100A048CD /* Constant.swift in Sources */,
+				9A88C3E92AA0D1D900A048CD /* DevoteWidgetBundle.swift in Sources */,
+				9A88C3EB2AA0D1D900A048CD /* DevoteWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACF10112AA08B150051D6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88C3D82AA0C52500A048CD /* ListRowItemView.swift in Sources */,
+				9A88C3F32AA0D1DB00A048CD /* DevoteWidget.intentdefinition in Sources */,
+				9A88C3D42AA0B15000A048CD /* NewTaskItemView.swift in Sources */,
+				9A88C3DC2AA0CDBA00A048CD /* SoundPlayer.swift in Sources */,
+				9ACF10222AA08B170051D6C4 /* Persistence.swift in Sources */,
+				9ACF101B2AA08B150051D6C4 /* ContentView.swift in Sources */,
+				9ACF103F2AA0A35C0051D6C4 /* Constant.swift in Sources */,
+				9A88C3D22AA0B08700A048CD /* BackgroundImageView.swift in Sources */,
+				9A88C3D62AA0BB7000A048CD /* BlankView.swift in Sources */,
+				9ACF10252AA08B170051D6C4 /* Devote.xcdatamodeld in Sources */,
+				9A88C3DA2AA0C62C00A048CD /* CheckboxStyle.swift in Sources */,
+				9ACF10192AA08B150051D6C4 /* DevoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A88C3F52AA0D1DB00A048CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A88C3E02AA0D1D800A048CD /* DevoteWidgetExtension */;
+			targetProxy = 9A88C3F42AA0D1DB00A048CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A88C3F82AA0D1DB00A048CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.Devote.DevoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A88C3F92AA0D1DB00A048CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.Devote.DevoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ACF10262AA08B170051D6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ACF10272AA08B170051D6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ACF10292AA08B170051D6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.Devote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ACF102A2AA08B170051D6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.Devote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A88C3F72AA0D1DB00A048CD /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A88C3F82AA0D1DB00A048CD /* Debug */,
+				9A88C3F92AA0D1DB00A048CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACF10102AA08B150051D6C4 /* Build configuration list for PBXProject "Devote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACF10262AA08B170051D6C4 /* Debug */,
+				9ACF10272AA08B170051D6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACF10282AA08B170051D6C4 /* Build configuration list for PBXNativeTarget "Devote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACF10292AA08B170051D6C4 /* Debug */,
+				9ACF102A2AA08B170051D6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ACF10232AA08B170051D6C4 /* Devote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ACF10242AA08B170051D6C4 /* Devote.xcdatamodel */,
+			);
+			currentVersion = 9ACF10242AA08B170051D6C4 /* Devote.xcdatamodel */;
+			path = Devote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ACF100D2AA08B150051D6C4 /* Project object */;
+}
