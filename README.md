@@ -28,3 +28,10 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/1f6cda6d-d34
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/3ee9f7ff-688e-4344-8a22-33a914ecfd6f
 
 
+## 8. Project - Notes
+This app is a watchOS Application. It will be uploaded soon.
+
+
+## 9. Project - Developers (Learn by Doing)
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/fc77ac39-af7a-4b8e-b236-067a8bfc727a
+
