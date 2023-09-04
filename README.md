@@ -35,3 +35,9 @@ This app is a watchOS Application. It will be uploaded soon.
 ## 9. Project - Developers (Learn by Doing)
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/fc77ac39-af7a-4b8e-b236-067a8bfc727a
 
+
+## 10. Project - Avocado Recipes
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/77e7c89a-3d7f-4ffb-ba05-309898a09d46
+
+
+
