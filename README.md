@@ -40,4 +40,9 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/fc77ac39-af7
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/77e7c89a-3d7f-4ffb-ba05-309898a09d46
 
 
+## 11. Project - SwiftUI Game (Slot Machine)
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/d76d2c53-31bd-43da-8975-d996771264b8
+
+
+
 
