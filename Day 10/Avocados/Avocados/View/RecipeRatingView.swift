@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct RecipeRatingView: View {
     
     var recipe: Recipe
