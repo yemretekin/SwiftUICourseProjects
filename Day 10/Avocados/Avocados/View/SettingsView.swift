@@ -50,13 +50,6 @@ struct SettingsView: View {
                         }
                         
                         HStack {
-                            Text("Product").foregroundColor(.gray)
-                            Spacer()
-                            Text("Avocado Recipes")
-                            
-                        }
-                        
-                        HStack {
                             Text("Compatibility").foregroundColor(.gray)
                             Spacer()
                             Text("iPhone & iPad")

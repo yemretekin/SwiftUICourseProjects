@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//ww
+
 struct FactsView: View {
     
     var fact: Fact

@@ -31,7 +31,7 @@ struct ContentView: View {
                 
                 
                 DishesView()
-                    .frame(maxWidth: 640)
+                    .frame(maxWidth: 650)
                 
                 
                 Text("Avocado Facts")
@@ -39,7 +39,7 @@ struct ContentView: View {
                     .modifier(TitleModifier())
                 
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(alignment: .top, spacing: 60) {
+                    HStack(alignment: .top, spacing: 61) {
                         ForEach(facts) { fact in
                             FactsView(fact: fact)
                         }
