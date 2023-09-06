@@ -9,12 +9,15 @@ import SwiftUI
 
 struct ReelView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("gfx-reel")
+            .resizable()
+            .modifier(ImageModifier())
     }
 }
 
 struct ReelView_Previews: PreviewProvider {
     static var previews: some View {
         ReelView()
+            .previewLayout(.fixed(width: 220, height: 220))
     }
 }
