@@ -13,6 +13,14 @@
 		9A9E65AE2AA76076001F1E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E65AD2AA76076001F1E2B /* Preview Assets.xcassets */; };
 		9A9E65B02AA76076001F1E2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E65AF2AA76076001F1E2B /* Persistence.swift */; };
 		9A9E65B32AA76076001F1E2B /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E65B12AA76076001F1E2B /* Todo.xcdatamodeld */; };
+		9A9E65BB2AA760B9001F1E2B /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E65BA2AA760B9001F1E2B /* AddTodoView.swift */; };
+		9AED85C72AA858DD0002743A /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85C62AA858DD0002743A /* EmptyListView.swift */; };
+		9AED85C92AA866AE0002743A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85C82AA866AE0002743A /* SettingsView.swift */; };
+		9AED85CB2AA8756B0002743A /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85CA2AA8756B0002743A /* FormRowStaticView.swift */; };
+		9AED85CD2AA877AE0002743A /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85CC2AA877AE0002743A /* FormRowLinkView.swift */; };
+		9AED85D02AA888C40002743A /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85CF2AA888C40002743A /* ThemeModel.swift */; };
+		9AED85D22AA888EA0002743A /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85D12AA888EA0002743A /* ThemeData.swift */; };
+		9AED85D42AA8890A0002743A /* ThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED85D32AA8890A0002743A /* ThemeSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		9A9E65AD2AA76076001F1E2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A9E65AF2AA76076001F1E2B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9A9E65B22AA76076001F1E2B /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
+		9A9E65BA2AA760B9001F1E2B /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		9AED85C62AA858DD0002743A /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		9AED85C82AA866AE0002743A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9AED85CA2AA8756B0002743A /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		9AED85CC2AA877AE0002743A /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		9AED85CF2AA888C40002743A /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		9AED85D12AA888EA0002743A /* ThemeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		9AED85D32AA8890A0002743A /* ThemeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +71,9 @@
 		9A9E65A52AA76074001F1E2B /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				9AED85CE2AA888BB0002743A /* Theme */,
+				9A9E65B92AA760A8001F1E2B /* View */,
 				9A9E65A62AA76074001F1E2B /* TodoApp.swift */,
-				9A9E65A82AA76074001F1E2B /* ContentView.swift */,
 				9A9E65AA2AA76076001F1E2B /* Assets.xcassets */,
 				9A9E65AF2AA76076001F1E2B /* Persistence.swift */,
 				9A9E65B12AA76076001F1E2B /* Todo.xcdatamodeld */,
@@ -71,6 +88,29 @@
 				9A9E65AD2AA76076001F1E2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A9E65B92AA760A8001F1E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E65A82AA76074001F1E2B /* ContentView.swift */,
+				9A9E65BA2AA760B9001F1E2B /* AddTodoView.swift */,
+				9AED85C62AA858DD0002743A /* EmptyListView.swift */,
+				9AED85C82AA866AE0002743A /* SettingsView.swift */,
+				9AED85CA2AA8756B0002743A /* FormRowStaticView.swift */,
+				9AED85CC2AA877AE0002743A /* FormRowLinkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AED85CE2AA888BB0002743A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9AED85CF2AA888C40002743A /* ThemeModel.swift */,
+				9AED85D12AA888EA0002743A /* ThemeData.swift */,
+				9AED85D32AA8890A0002743A /* ThemeSettings.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AED85C92AA866AE0002743A /* SettingsView.swift in Sources */,
+				9AED85CB2AA8756B0002743A /* FormRowStaticView.swift in Sources */,
+				9AED85CD2AA877AE0002743A /* FormRowLinkView.swift in Sources */,
+				9AED85D22AA888EA0002743A /* ThemeData.swift in Sources */,
 				9A9E65B02AA76076001F1E2B /* Persistence.swift in Sources */,
 				9A9E65A92AA76074001F1E2B /* ContentView.swift in Sources */,
+				9AED85D42AA8890A0002743A /* ThemeSettings.swift in Sources */,
+				9AED85C72AA858DD0002743A /* EmptyListView.swift in Sources */,
 				9A9E65A72AA76074001F1E2B /* TodoApp.swift in Sources */,
+				9AED85D02AA888C40002743A /* ThemeModel.swift in Sources */,
 				9A9E65B32AA76076001F1E2B /* Todo.xcdatamodeld in Sources */,
+				9A9E65BB2AA760B9001F1E2B /* AddTodoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
