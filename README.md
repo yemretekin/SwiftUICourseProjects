@@ -44,5 +44,6 @@ https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/77e7c89a-3d7
 https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/d76d2c53-31bd-43da-8975-d996771264b8
 
 
-
+## 12. Project - Todo
+https://github.com/yemretekin/SwiftUICourseProjects/assets/43580854/d924927c-5eb0-4939-86ce-8db18f586c86
 
