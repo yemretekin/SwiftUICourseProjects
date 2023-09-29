@@ -8,6 +8,7 @@
 import Foundation
 
 var ripeningData: [Ripening] = [
+    
     Ripening(
       image: "avocado-ripening-1",
       stage: "1",
